@@ -1,0 +1,75 @@
+.player-container {
+  height: 12%;
+  background: #18181840;
+  border-top: 0.5px solid #9b9b9b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.player-details-container {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.player-image {
+  height: 60px;
+  width: 60px;
+  margin: 0px;
+  margin-right: 30px;
+}
+.player-details {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.player-details-name {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 6px;
+}
+
+.player-details-artists {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9b9b9b;
+}
+audio {
+  width: 60%;
+}
+audio::-webkit-media-controls-panel {
+  background: #181818;
+  border: 1px solid #181818;
+  color: #ffffff;
+}
+audio::-webkit-media-controls-play-button {
+  background-color: green;
+  color: white;
+  border: none;
+  width: 80%;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: white;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: white;
+}
+audio::-webkit-media-controls-timeline {
+  color: white;
+}
+audio::-webkit-media-controls-volume-slider {
+  color: green;
+}
+audio::-webkit-media-controls-seek-back-button {
+  color: white;
+}

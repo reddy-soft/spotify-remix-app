@@ -1,0 +1,92 @@
+.music-container {
+  display: flex;
+  background-color: #181818;
+  height: 100vh;
+  overflow: auto;
+}
+@media screen and (max-width: 767px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
+
+.music-playlist-section {
+  height: 100%;
+  width: 100%;
+}
+
+.music-app-container {
+  height: 88%;
+  overflow: auto;
+  padding: 30px;
+  padding-top: 50px;
+}
+
+.music-heading {
+  color: white;
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 20px;
+}
+
+.music-list-container {
+  width: 95%;
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.music-item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.music-item-img {
+  height: 70px;
+  width: 70px;
+  margin-right: 30px;
+  border: none;
+  border-radius: 6px;
+}
+
+.music-item-details {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.music-item-name {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0px;
+}
+
+.music-item-artists {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9b9b9b;
+}
+
+.music-item-duration {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9b9b9b;
+  margin-left: auto;
+  margin-right: 40px;
+}

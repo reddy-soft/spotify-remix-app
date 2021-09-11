@@ -1,0 +1,93 @@
+.main-container {
+  display: flex;
+  background-color: #181818;
+  height: 100vh;
+  overflow: auto;
+}
+@media screen and (max-width: 767px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
+
+.app-profile-container {
+  width: 100%;
+  padding: 30px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  width: 50%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.profile-img {
+  font-size: 30vh;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 6%;
+}
+.profile-name {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 63px;
+  margin-bottom: 20px;
+}
+.profile-details {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-val {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1db954;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.details-name {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.profile-btn {
+  height: 40px;
+  width: 120px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 14px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}

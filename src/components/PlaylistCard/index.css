@@ -1,0 +1,25 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.card-img {
+  height: 160px;
+  width: 160px;
+  border: none;
+  border-radius: 6px;
+}
+
+.card-name {
+  width: 150px;
+  height: 42px;
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}

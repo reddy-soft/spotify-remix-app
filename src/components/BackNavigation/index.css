@@ -1,0 +1,22 @@
+.back-navigation-button {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.back-toggler {
+  font-size: 21px;
+  margin-right: 4px;
+}
+.back-text {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+}

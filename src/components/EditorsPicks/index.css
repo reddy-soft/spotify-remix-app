@@ -1,0 +1,20 @@
+.picks-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+}
+.message-name {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0px;
+}
+
+.editor-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
