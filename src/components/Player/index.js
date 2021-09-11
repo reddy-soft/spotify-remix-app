@@ -5,7 +5,6 @@ const defaultUrl =
 
 const Player = props => {
   const {player} = props
-  console.log('player1')
   const {name, artists, imageUrl, songUrl} = player
   return (
     <div className="player-container">
