@@ -16,6 +16,11 @@
   padding: 30px;
   padding-top: 50px;
 }
+@media screen and (max-width: 767px) {
+  .home-app-container {
+    padding: 20px;
+  }
+}
 
 .bottom-group {
   display: flex;

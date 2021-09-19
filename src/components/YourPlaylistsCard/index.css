@@ -5,6 +5,11 @@
   margin-right: 20px;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 767px) {
+  .playlists-card-container {
+    margin: 10px;
+  }
+}
 
 .playlists-card-img {
   height: 165px;
@@ -12,6 +17,12 @@
   border: none;
   border-radius: 6px;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .playlists-card-img {
+    height: 80px;
+    width: 80px;
+  }
 }
 
 .playlists-card-name {
@@ -25,6 +36,13 @@
   margin: 0px;
   width: 160px;
 }
+@media screen and (max-width: 767px) {
+  .playlists-card-name {
+    font-size: 12px;
+    line-height: 14px;
+    width: 80px;
+  }
+}
 
 .playlists-card-tracks {
   font-family: 'Assistant';
@@ -35,4 +53,10 @@
   text-align: center;
   color: #64748b;
   margin: 4px;
+}
+@media screen and (max-width: 767px) {
+  .playlists-card-tracks {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }

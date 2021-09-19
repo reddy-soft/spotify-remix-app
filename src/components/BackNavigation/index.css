@@ -12,6 +12,11 @@
   font-size: 21px;
   margin-right: 4px;
 }
+@media screen and (max-width: 767px) {
+  .back-toggler {
+    font-size: 18px;
+  }
+}
 .back-text {
   font-family: 'Assistant';
   font-style: normal;
@@ -19,4 +24,10 @@
   font-size: 16px;
   line-height: 24px;
   color: #f8fafc;
+}
+@media screen and (max-width: 767px) {
+  .back-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }

@@ -59,7 +59,10 @@ class SpecificAlbum extends Component {
 
     return (
       <div className="sp-album-container">
-        <Header activeTab="HOME" />
+        <div className="header-container">
+          <Header activeTab="HOME" />
+        </div>
+
         <div className="sp-album-app-container">
           <BackNavigation />
           <h1 className="sp-album-heading">{albumName.toUpperCase()}</h1>

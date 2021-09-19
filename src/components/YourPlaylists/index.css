@@ -4,6 +4,11 @@
   height: 100vh;
   overflow: auto;
 }
+@media screen and (max-width: 767px) {
+  .playlist-container {
+    flex-direction: column;
+  }
+}
 
 .playlist-app-container {
   width: 100%;
@@ -11,6 +16,11 @@
   overflow: auto;
   padding: 30px;
   padding-top: 50px;
+}
+@media screen and (max-width: 767px) {
+  .playlist-app-container {
+    padding: 20px;
+  }
 }
 
 .playlists-heading {
@@ -22,6 +32,12 @@
   line-height: 31px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 767px) {
+  .playlists-heading {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
 
 .playlists-list {
   list-style-type: none;
@@ -30,7 +46,11 @@
   align-items: center;
   flex-wrap: wrap;
 }
-
+@media screen and (max-width: 767px) {
+  .playlists-list {
+    justify-content: space-evenly;
+  }
+}
 .nav-link {
   text-decoration: none;
   cursor: pointer;

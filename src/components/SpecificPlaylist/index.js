@@ -128,17 +128,17 @@ class SpecificPlaylist extends Component {
 
     return (
       <li className="sp-playlist-bottom-container" key={id}>
-        <p className="sp-playlist-bottom-item width-1">
+        <p className="sp-playlist-bottom-item width-1 ">
           {this.getSerialNum(id)}
         </p>
         <p
-          className="sp-playlist-bottom-item width-2"
+          className="sp-playlist-bottom-item width-2 mobile-header"
           onClick={this.changeSong}
         >
           {name}
         </p>
         <p className="sp-playlist-bottom-item  width-2">{album}</p>
-        <p className="sp-playlist-bottom-item width-3">
+        <p className="sp-playlist-bottom-item width-3 mobile-header">
           {this.getDurationInFormat(duration / 1000)}
         </p>
         <p className="sp-playlist-bottom-item  width-3">{artists}</p>
@@ -155,7 +155,9 @@ class SpecificPlaylist extends Component {
     const {name, type, imageUrl, tracks} = specificPlaylistAlbum
     return (
       <div className="sp-playlist-container">
-        <Header activeTab="PLAYLISTS" />
+        <div className="header-container">
+          <Header activeTab="PLAYLISTS" />
+        </div>
         <div className="music-playlist-section">
           <div className="sp-playlist-app-container">
             <BackNavigation />

@@ -119,11 +119,14 @@ class SpecificCategiryPlaylist extends Component {
         <p className="sp-album-bottom-item add-width2">
           {this.getSerialNum(id)}
         </p>
-        <p className="sp-album-bottom-item add-width" onClick={this.changeSong}>
+        <p
+          className="sp-album-bottom-item add-width mobile-header"
+          onClick={this.changeSong}
+        >
           {name}
         </p>
         <p className="sp-album-bottom-item ">{artists}</p>
-        <p className="sp-album-bottom-item">
+        <p className="sp-album-bottom-item mobile-header add-width3">
           {this.getDurationInFormat(duration / 1000)}
         </p>
       </div>
@@ -139,7 +142,10 @@ class SpecificCategiryPlaylist extends Component {
     const {imageUrl, artists, type, name} = specificCategoryDetails
     return (
       <div className="sp-category-playlist-container">
-        <Header activeTab="PLAYLISTS" />
+        <div className="header-container">
+          <Header activeTab="PLAYLISTS" />
+        </div>
+
         <div className="music-playlist-section">
           <div className="sp-category-playlist-app-container">
             <BackNavigation />

@@ -5,12 +5,23 @@
   align-items: center;
   margin-right: 18px;
 }
+@media screen and (max-width: 767px) {
+  .card-container {
+    margin-right: 10px;
+  }
+}
 
 .card-img {
   height: 160px;
   width: 160px;
   border: none;
   border-radius: 6px;
+}
+@media screen and (max-width: 767px) {
+  .card-img {
+    height: 80px;
+    width: 80px;
+  }
 }
 
 .card-name {
@@ -22,4 +33,12 @@
   font-size: 14px;
   line-height: 18px;
   text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .card-name {
+    font-size: 10px;
+    line-height: 13px;
+    width: 60px;
+    height: 30px;
+  }
 }

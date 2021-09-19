@@ -5,7 +5,7 @@
   overflow: auto;
 }
 @media screen and (max-width: 767px) {
-  .main-container {
+  .music-container {
     flex-direction: column;
   }
 }
@@ -14,12 +14,23 @@
   height: 100%;
   width: 100%;
 }
+@media screen and (max-width: 767px) {
+  .music-playlist-section {
+    padding-top: 0px;
+  }
+}
 
 .music-app-container {
   height: 88%;
   overflow: auto;
   padding: 30px;
   padding-top: 50px;
+}
+@media screen and (max-width: 767px) {
+  .music-app-container {
+    padding: 20px;
+    height: 84%;
+  }
 }
 
 .music-heading {
@@ -31,7 +42,12 @@
   line-height: 31px;
   margin-bottom: 20px;
 }
-
+@media screen and (max-width: 767px) {
+  .music-heading {
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
 .music-list-container {
   width: 95%;
   list-style-type: none;
@@ -39,7 +55,11 @@
   display: flex;
   flex-direction: column;
 }
-
+@media screen and (max-width: 767px) {
+  .music-list-container {
+    width: 100%;
+  }
+}
 .music-item-container {
   display: flex;
   align-items: center;
@@ -54,6 +74,13 @@
   margin-right: 30px;
   border: none;
   border-radius: 6px;
+}
+@media screen and (max-width: 767px) {
+  .music-item-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
 }
 
 .music-item-details {
@@ -70,6 +97,12 @@
   line-height: 21px;
   margin: 0px;
 }
+@media screen and (max-width: 767px) {
+  .music-item-name {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
 
 .music-item-artists {
   font-family: 'Assistant';
@@ -79,7 +112,12 @@
   line-height: 16px;
   color: #9b9b9b;
 }
-
+@media screen and (max-width: 767px) {
+  .music-item-artists {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
 .music-item-duration {
   font-family: 'Assistant';
   font-style: normal;
@@ -89,4 +127,9 @@
   color: #9b9b9b;
   margin-left: auto;
   margin-right: 40px;
+}
+@media screen and (max-width: 767px) {
+  .music-item-duration {
+    margin-right: 0px;
+  }
 }

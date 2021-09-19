@@ -12,9 +12,21 @@
   line-height: 28px;
   margin: 0px;
 }
+@media screen and (max-width: 767px) {
+  .message-name {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
 
 .editor-container {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .editor-container {
+    width: 100%;
+    justify-content: space-evenly;
+  }
 }

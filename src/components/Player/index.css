@@ -13,12 +13,24 @@
   align-items: center;
   width: 40%;
 }
+@media screen and (max-width: 767px) {
+  .player-details-container {
+    width: 60%;
+  }
+}
 
 .player-image {
   height: 60px;
   width: 60px;
   margin: 0px;
   margin-right: 30px;
+}
+@media screen and (max-width: 767px) {
+  .player-image {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
 }
 .player-details {
   display: flex;
@@ -33,7 +45,13 @@
   line-height: 21px;
   margin-bottom: 6px;
 }
-
+@media screen and (max-width: 767px) {
+  .player-details-name {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0px;
+  }
+}
 .player-details-artists {
   font-family: 'Assistant';
   font-style: normal;
@@ -42,14 +60,26 @@
   line-height: 16px;
   color: #9b9b9b;
 }
+@media screen and (max-width: 767px) {
+  .player-details-artists {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
 audio {
   width: 60%;
+}
+@media screen and (max-width: 767px) {
+  audio {
+    width: 40%;
+  }
 }
 audio::-webkit-media-controls-panel {
   background: #181818;
   border: 1px solid #181818;
   color: #ffffff;
 }
+
 audio::-webkit-media-controls-play-button {
   background-color: green;
   color: white;
