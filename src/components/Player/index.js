@@ -18,7 +18,6 @@ const Player = props => {
       </div>
       <audio
         controls
-        autoPlay="true"
         src={songUrl === null ? defaultUrl : songUrl}
         type="audio/mp3"
       >
